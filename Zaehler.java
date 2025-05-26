@@ -20,7 +20,7 @@ public class Zaehler extends Thread {
     // Methode run() überschreibt die gleichnamige Methode der Oberklasse.
     public void run() {
         try { // try und catch wegen sleep() nötig
-            for (int i = 1 ; i <= 10 ; i++) {
+            for (int i = 1 ; i <= 20 ; i++) {
                 zaehler = i;
                 sleep(wartezeit);
                 System.out.println("Stand von " + name + " : " + zaehler);
